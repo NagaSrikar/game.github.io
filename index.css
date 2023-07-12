@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital@1&family=Roboto&display=swap');
+/* navbar */
+.items ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3%;
+  left: 60%;
+
+}
+.img img{
+   height: 60px;
+    display: block;
+    margin-left: 68px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1%;
+    width: 75px;
+}
+.items ul li{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 90px;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar::before{
+  content: " ";
+  background-color: #ffffff75;
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+.heading h1{
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+  background: url(pexels-lucie-liz-3165335.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.mainheading{
+  text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: white;
+}
+/* Table */
+table{
+    width: 95%;
+    height: 65vh;
+    background: white;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 8px #fff4;
+    position: absolute;
+    left: 2%;
+    border-collapse: collapse;
+    top: 15%;
+}
+thead th{
+background-color: white;
+font-size: 1.5rem;
+padding: 10px 10px;
+border-collapse: collapse;
+width: 250px;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.heading{
+  width: 215px;
+  
+}
+.withcer{
+  width: 250px;
+}
+#tableBody td{
+  font-size: 25px;
+  padding: 10px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 125px;
+  font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+#tableBody td img{
+  width: 205px;
+  height: 150px;
+  display: block;
+  border-radius: 20px;
+  object-fit: cover;
+  
+}
+.first{
+  width: 200px;
+}
+.second{
+  width: 200px;
+}
+.three{
+  width: 200px;
+}
+.four{
+  width: 200px;
+}
+.five{
+  width: 500px;
+}
+/* table */
+
+/* Buttons */
+.paginationContainer{
+  position: absolute;
+  top: 87%;
+  left: 8%;
+}
+#pagination button{
+margin-left: 10px;
+padding: 10px 10px;
+width: 55px;
+height: 38px;
+font-size: large;
+color: black;
+background-color: white;
+border: none;
+outline: none;
+border-radius: 25px;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#pagination button:hover{
+color: white;
+background-color: black;
+transition: all ease-in-out .5s;
+cursor: pointer;
+}
+
